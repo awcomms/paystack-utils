@@ -1,0 +1,27 @@
+exact location on map
+backend
+    create all users
+
+    payment
+        confirm order
+        add order to user_orders
+
+
+confirm payment websocket
+order
+    address: string
+    email: string
+    phone number: number
+    name: string
+    sizes
+        user_id
+            early_years: number
+            junior: number
+            intermediate: number
+            senior: number
+    state: fulfilled
+
+all orders page
+user orders page
+order details page
+place order page
