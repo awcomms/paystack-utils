@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Sizes from '$lib/components/JacketOrder/Sizes.svelte';
 	import { http } from '$lib/util';
-	import { DataTable } from 'carbon-components-svelte';
+	import { DataTable, Button } from 'carbon-components-svelte';
 	import type { JacketOrder, Sizes as _Sizes, SearchOptions } from '../types';
 
 	let orders: JacketOrder[] = [];
@@ -13,7 +13,6 @@
 
 	const get = async (..._: any[]) => {
 		await http<JacketOrder[]>({ JacketOrder: { Search: { options } } }).then((r) => {
-			console.log('s', r);
 			orders = r;
 		});
 	};

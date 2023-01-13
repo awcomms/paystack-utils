@@ -40,8 +40,9 @@
 				// 		status = 'error creating order';
 				// 	});
 			})
-			.catch(() => {
-				alert('error');
+			.catch((e) => {
+				console.log(`error: ${e}`);
+				alert(`error: ${e}`);
 				status = 'error creating order';
 			});
 	};

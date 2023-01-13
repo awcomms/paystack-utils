@@ -1,8 +1,11 @@
 <script>
-
-    import 'carbon-components-svelte/css/all.css'
-    import {Theme} from 'carbon-components-svelte'
+	import 'carbon-components-svelte/css/all.css';
+	import { Content, Grid, Theme } from 'carbon-components-svelte';
 </script>
 
 <Theme persist theme="white" />
-<slot />
+<Content style="background: none; padding: 1rem">
+	<Grid>
+		<slot />
+	</Grid>
+</Content>
