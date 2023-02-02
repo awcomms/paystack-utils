@@ -17,7 +17,7 @@ export const http = <Type>(data: object, auth = false): Promise<Type> => {
 	// if (auth) {
 	// 	model_object[Object.keys(model_object)[0]].token = get(token);
 	// }
-	return fetch(`${BACKEND_HTTP}/req`, {
+	return fetch(`${BACKEND_HTTP}`, {
 		method: 'POST',
 		headers: {
 			'content-type': 'application/json'
