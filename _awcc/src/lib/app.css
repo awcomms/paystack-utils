@@ -1,0 +1,9 @@
+h1 {
+    font-family: Allegro !important;
+}
+
+.all-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.369rem;
+}

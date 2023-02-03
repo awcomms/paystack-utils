@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Adaobi Okafor",
+		"phone": "+234 708 594 6511",
+		"email": "adaobi.okafor@example.com",
+		"whatsapp": "+234 708 594 6511"
+	},
+	{
+		"name": "Ganiyu Adebayo",
+		"phone": "+234 809 472 6792",
+		"email": "ganiyu.adebayo@example.com",
+		"whatsapp": "+234 809 472 6792"
+	},
+	{
+		"name": "Chike Okonkwo",
+		"phone": "+234 807 943 1748",
+		"email": "chike.okonkwo@example.com",
+		"whatsapp": "+234 807 943 1748"
+	},
+	{
+		"name": "Kelechi Umeh",
+		"phone": "+234 803 536 4308",
+		"email": "kelechi.umeh@example.com",
+		"whatsapp": "+234 803 536 4308"
+	},
+	{
+		"name": "Adaeze Ibekwe",
+		"phone": "+234 808 899 4243",
+		"email": "adaeze.ibekwe@example.com",
+		"whatsapp": "+234 808 899 4243"
+	}
+]

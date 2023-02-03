@@ -1,5 +1,6 @@
 <script>
 	import '$lib/fonts/fonts.css';
+	import '$lib/app.css'
 	import 'carbon-components-svelte/css/all.css';
 	import { Content, Grid, Theme } from 'carbon-components-svelte';
 	import Header from '$lib/components/_Nav/Header.svelte';
