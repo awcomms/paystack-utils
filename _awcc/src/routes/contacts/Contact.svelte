@@ -3,11 +3,11 @@
 	import { Email, Phone } from 'carbon-icons-svelte';
 	import type { Contact } from './types';
 
-	export let contact: Contact
+	export let contact: Contact;
 </script>
 
 <Accordion align="end">
-	<AccordionItem title={contact.name}>
+	<AccordionItem title="{contact.name}{contact._class ? ' - ' + contact._class + ' teacher' : ''}">
 		<div class="all-list">
 			<div class="link">
 				<Email />

@@ -3,30 +3,39 @@
 		"name": "Adaobi Okafor",
 		"phone": "+234 708 594 6511",
 		"email": "adaobi.okafor@example.com",
-		"whatsapp": "+234 708 594 6511"
+		"whatsapp": "+234 708 594 6511",
+		"_class": "Grade 4",
+		"_type": "Teacher"
 	},
 	{
 		"name": "Ganiyu Adebayo",
 		"phone": "+234 809 472 6792",
 		"email": "ganiyu.adebayo@example.com",
-		"whatsapp": "+234 809 472 6792"
+		"whatsapp": "+234 809 472 6792",
+		"_class": "Grade 3",
+		"_type": "Teacher"
 	},
 	{
 		"name": "Chike Okonkwo",
 		"phone": "+234 807 943 1748",
 		"email": "chike.okonkwo@example.com",
-		"whatsapp": "+234 807 943 1748"
+		"whatsapp": "+234 807 943 1748",
+		"_type": "Administrative"
 	},
 	{
 		"name": "Kelechi Umeh",
 		"phone": "+234 803 536 4308",
 		"email": "kelechi.umeh@example.com",
-		"whatsapp": "+234 803 536 4308"
+		"whatsapp": "+234 803 536 4308",
+		"_class": "Nursery 1",
+		"_type": "Non-Teacher"
 	},
 	{
 		"name": "Adaeze Ibekwe",
 		"phone": "+234 808 899 4243",
 		"email": "adaeze.ibekwe@example.com",
-		"whatsapp": "+234 808 899 4243"
+		"whatsapp": "+234 808 899 4243",
+		"_class": "Grade 3",
+		"_type": "Teacher"
 	}
 ]

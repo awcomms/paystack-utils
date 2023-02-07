@@ -7,7 +7,7 @@ import event from '$lib/images/event.jpg';
 import type { Club } from './types';
 import { lorem } from '$lib/util';
 
-let images = [students, bruh, chess, playing, cook, event].map(i => ({src: i, alt: "club activity depiction"}))
+const images = [students, bruh, chess, playing, cook, event].map(i => ({src: i, alt: "club activity depiction"}))
 
 export const clubs: Club[] = [
 	{

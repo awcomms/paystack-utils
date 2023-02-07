@@ -44,6 +44,11 @@
 
 	let quick_links: import('$lib/components/types').QuickLink[] = [
 		{
+			href: '/about',
+			text: 'About Us',
+			icon: TextAlignCenter
+		},
+		{
 			href: '/fees',
 			text: 'Fees',
 			icon: CurrencyDollar
@@ -77,25 +82,21 @@
 			href: '/curriculum',
 			text: 'Curriculum',
 			icon: TextAlignLeft
-		},
-		{
-			href: '/about',
-			text: 'About',
-			icon: TextAlignCenter
-		},
-		{
-			href: '/extracurricular',
-			text: 'Extracurricular',
-			icon: Music
 		}
+
+		// {
+		// 	href: '/extracurricular',
+		// 	text: 'Extracurricular',
+		// 	icon: Music
+		// }
 	];
 </script>
 
 <div class="all">
 	<div class="welcome">Welcome to AngelWings Comprehensive College</div>
 	<div>
-		AngelWings Comprehensive College is an educational institution located in Kubwa, Abuja comprising of a Nursery school, Primary school,
-		and a Junior Secondary School
+		AngelWings Comprehensive College is an educational institution located in Kubwa, Abuja
+		comprising of a Nursery school, Primary school, and a Junior Secondary School
 	</div>
 
 	<Row>

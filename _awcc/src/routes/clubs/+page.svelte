@@ -1,6 +1,8 @@
 <script lang="ts">
-	import { EachRow } from '$lib/components';
+	import { Carousel, EachRow } from '$lib/components';
 	import { Link } from 'carbon-components-svelte';
+
+    import type {Club} from './types'
 
 	import { clubs } from './clubs';
 </script>
@@ -10,7 +12,7 @@
 <EachRow let:item items={clubs}>
 	<Link href="clubs/{item.id}">
 		<div class="item">
-			<img width="100" height="100" src={item.src} alt={item.alt} />
+            <Carousel width={50} height={50} images={item.images} />
 			<h2 class="name">{item.name}</h2>
 			<p class="about">{item.description}</p>
 		</div>

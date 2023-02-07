@@ -3,4 +3,6 @@ export interface Contact {
     phone: string,
     email: string,
     whatsapp?: string
+    _class?: string,
+    _type: string
 }

@@ -30,7 +30,7 @@
 </Row>
 
 <Row>
-  <Column noGutter lg={7}>
+  <Column noGutter>
     <DataTable
       headers={headers}
       rows={rows} />
