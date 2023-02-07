@@ -34,6 +34,9 @@
 		"vite": "^4.0.0",
 		"vitest": "^0.25.3"
 	},
+	"engines": {
+		"node": ">18.0.0"
+	},
 	"type": "module",
 	"dependencies": {
 		"@carbon/colors": "^11.12.0",
