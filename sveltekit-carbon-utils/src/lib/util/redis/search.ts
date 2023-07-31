@@ -22,11 +22,11 @@ export const search = async ({ index, page, filters, count, search, RETURN }: Se
 		DIALECT: 3
 	};
 
-	// if (page) {
-	// 	options.LIMIT = count
-	// 		? { from: 0, size: 0 }
-	// 		: { from: page > 1 ? (page - 1) * items_per_page : 0, size: items_per_page };
-	// }
+	if (page) {
+		options.LIMIT = count
+			? { from: 0, size: 0 }
+			: { from: page > 1 ? (page - 1) * items_per_page : 0, size: items_per_page };
+	}
 
 	let query = '';
 	let extra_args = ''; // ' HYBRID_POLICY ADHOC_BF';

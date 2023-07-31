@@ -1,4 +1,5 @@
 <script lang="ts">
+	export let platformName: string, company: string, href: string;
 	import { navigating, page } from '$app/stores';
 	import { isSideNavOpen } from './store.js';
 	import {
@@ -23,9 +24,10 @@
 
 <Header
 	persistentHamburgerMenu={true}
-	platformName="Quiz"
+	{platformName}
+	{company}
 	bind:isSideNavOpen={$isSideNavOpen}
-	href="/"
+	{href}
 >
 	{#if $navigating}
 		<InlineLoading />
