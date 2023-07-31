@@ -9,4 +9,7 @@ declare global {
 	}
 }
 
+declare module 'marked-extended-tables'
+declare module 'marked-bidi'
+
 export {};

@@ -12,7 +12,7 @@
 	} from 'carbon-components-svelte';
 	import Sun from 'carbon-icons-svelte/lib/Sun.svelte';
 	import Moon from 'carbon-icons-svelte/lib/Moon.svelte';
-	import { theme } from '$lib/theme_store.js';
+	import { theme } from '$lib/util/theme_store.js';
 	import { signIn, signOut } from '@auth/sveltekit/client';
 	// import LogoGithub from 'carbon-icons-svelte/lib/LogoGithub.svelte';
 	import UserAvatarFilledAlt from 'carbon-icons-svelte/lib/UserAvatarFilledAlt.svelte';
