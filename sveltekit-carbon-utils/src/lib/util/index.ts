@@ -7,7 +7,6 @@ export { embedding } from './embedding.js';
 export { download_blob } from './download_blob.js';
 export { unescape_email } from './unescape_email.js';
 export { transcribe } from './transcribe.js';
-export { openai } from './openai.js';
 export { notify } from './notify.js';
 export { is_object } from './is_object.js';
 export { is_JSONPath } from './is_JSONPath.js';

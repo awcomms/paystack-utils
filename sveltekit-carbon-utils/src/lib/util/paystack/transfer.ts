@@ -1,6 +1,6 @@
 import { v4 } from 'uuid';
 import { create_transfer_recipient } from './create_transfer_recipient.js';
-import { paystack } from './index.js';
+import type { AxiosInstance } from 'axios';
 import type { Currency } from './currencies.js';
 
 export const transfer = async ({
@@ -9,7 +9,8 @@ export const transfer = async ({
 	bank,
 	amount,
 	reason,
-	currency
+	currency,
+	paystack
 }: {
 	name: string;
 	number: string;
@@ -17,6 +18,7 @@ export const transfer = async ({
 	amount: number;
 	currency: Currency;
 	reason?: string;
+	paystack: AxiosInstance;
 }): Promise<string> => {
 	const reference = v4();
 	await paystack.post('/transfer', {
