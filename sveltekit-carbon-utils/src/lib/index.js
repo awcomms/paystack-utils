@@ -12,4 +12,3 @@ export { default as Results } from '$lib/components/Results.svelte';
 export { default as ResultsPagination } from '$lib/components/ResultsPagination.svelte';
 export { default as Search } from '$lib/components/Search.svelte';
 export { notify } from '$lib/util/index.js';
-export { redis } from '$lib/util/index.js';

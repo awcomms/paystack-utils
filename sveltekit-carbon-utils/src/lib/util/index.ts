@@ -19,5 +19,4 @@ export * as store from './store.js';
 
 export * as markdown from './markdown/index.js';
 export * as paystack from './paystack/index.js';
-export * as redis from './redis/index.js';
 export * as sanitize from './sanitize/index.js';
