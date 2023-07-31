@@ -9,8 +9,6 @@ const client = createClient({
 	}
 });
 
-await client.connect();
-
 export { count } from './count.js';
 export { create } from './create.js';
 export { del } from './del.js';

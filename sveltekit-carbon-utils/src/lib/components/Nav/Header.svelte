@@ -35,6 +35,7 @@
 	<svelte:fragment slot="skip-to-content">
 		<SkipToContent />
 	</svelte:fragment>
+	<!-- <slot name="header" /> -->
 	<HeaderUtilities>
 		<!-- <a
 			href={$page.data.github_repo}
@@ -44,6 +45,8 @@
 		>
 			<LogoGithub size={20} />
 		</a> -->
+		<slot name="header-utilities" />
+
 		<HeaderAction
 			on:click={(e) => {
 				$theme = $theme === 'g100' ? 'white' : 'g100';
@@ -55,13 +58,15 @@
 			{icon}
 			closeIcon={icon}
 		/>
+
 		<HeaderAction icon={UserAvatarFilledAlt} closeIcon={UserAvatarFilledAlt}>
 			<HeaderPanelLinks>
-				{#if $page.data.session?.user}
+				<slot name="panel-links" />
+				<!-- {#if $page.data.session?.user}
 					<HeaderPanelLink on:click={() => signOut()}>Log out: {$page.data.session.user.email}</HeaderPanelLink>
 				{:else}
 					<HeaderPanelLink on:click={() => signIn('google')}>Log in with Google</HeaderPanelLink>
-				{/if}
+				{/if} -->
 			</HeaderPanelLinks>
 		</HeaderAction>
 	</HeaderUtilities>

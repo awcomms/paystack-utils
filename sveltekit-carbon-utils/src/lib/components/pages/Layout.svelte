@@ -19,10 +19,15 @@
 <Notifications />
 
 <Theme theme={$theme} />
-<Header {platformName} {company} href={header_href} />
+<Header {platformName} {company} href={header_href}>
+	<slot name='header' />
+</Header>
 <Content style="background: none; padding: 1rem; height: 100%">
-	<SideNav />
+	<slot name='content' />
+	<SideNav>
+		<slot name='sidenav' />
+	</SideNav>
 	<Grid>
-		<slot />
+		<slot name='content-grid' />
 	</Grid>
 </Content>
